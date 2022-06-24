@@ -38,7 +38,7 @@ ________________________________________________________________________________
 9                 3,948              0                        forced_nonuples.txt
 10                85                 0                        forced_decuples.txt
 
-(where a "common" puzzle is a puzzle where all words (excluding the final solution) are within the NYTimes wordle answer list)
+(where a "common" puzzle is a puzzle where all words (excluding the final solution) are within the NYT wordle answer list)
 
 Note that there are no forced crosswordle puzzles of length >10, and crosswordle will only load puzzles of length 3 to 6 (inclusive).
 """
@@ -46,11 +46,11 @@ Note that there are no forced crosswordle puzzles of length >10, and crosswordle
 # imports for our program
 import random
 
-# NYtimes wordle answer list ("common words")
+# NYT wordle answer list ("common words")
 with open("wordles.txt") as f:
     WORDLES = f.read().split(", ")
 
-# NYTimes wordle guess list (any word you can enter into a crosswordle row will be in here)
+# NYT wordle guess list (any word you can enter into a crosswordle row will be in here)
 with open("extendedwordles.txt") as f:
     EXTENDED_WORDLE = f.read().split(", ")
 
