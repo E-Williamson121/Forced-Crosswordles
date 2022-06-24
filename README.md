@@ -7,7 +7,7 @@ The condition of a crosswordle being *forced* is stronger than the condition of 
 
 The corollary of this is that in a *forced crosswordle*, filling in a row with a valid word is equivalent to being finished with that row, whereas in a *unique crosswordle*, that row may need to be returned to later to avoid a dead end.
 
-This repository contains a pair of python scripts used for generation (forced_crosswordles_generator.py) and analysis (forced_crosswordles_analysis.py) of forced crosswordle puzzles, as well as large .txt files containing the data for all forced crosswordle puzzles of 2-10 rows (inclusive) in length.
+This repository contains a pair of python scripts used for generation (forced_crosswordles_generator.py) and analysis (forced_crosswordles_analysis.py) of forced crosswordle puzzles, as well as a .zip file containing the (very large) .txt files which hold the data for all forced crosswordle puzzles of 2-10 rows (inclusive) in length.
 
 Both scripts have been commented and are intended to be relatively customizable (especially so for the analysis script). 
 
