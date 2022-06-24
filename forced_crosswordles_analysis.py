@@ -8,11 +8,11 @@ The functionality in this script could be easily extended to allow for more deta
 # imports for our program
 import random
 
-# NYtimes wordle answer list ("common words")
+# NYT wordle answer list ("common words")
 with open("wordles.txt") as f:
     WORDLES = f.read().split(", ")
 
-# NYTimes wordle guess list (any word you can enter into a crosswordle row will be in here)
+# NYT wordle guess list (any word you can enter into a crosswordle row will be in here)
 with open("extendedwordles.txt") as f:
     EXTENDED_WORDLE = f.read().split(", ")
 
