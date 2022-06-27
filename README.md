@@ -11,6 +11,6 @@ This repository contains a pair of python scripts used for generation (forced_cr
 
 The hope of making this a public repository is that this will allow people to find a bunch of cool puzzles. The analysis filters provided give a good starting point for finding interesting puzzles by sorting them by the number of green tiles, amount of information given, number of tiles which are not grey, and filtering on if the words used are all common words in the NYT wordle answer list, but I'm hoping people will come up with a bunch of other ideas for what characteristics to search for in puzzles that would make them interesting.
 
-Including puzzles of lengths outside the 3-6 rows (inclusive) currently supported by crosswordle is as a generalization, although it may be useful in the event where someone makes a custom crosswordle gui (or crosswordle itself receives an update) which allows these puzzles to be played.
+Including the datasets for puzzles of lengths outside the 3-6 rows (inclusive) currently supported by crosswordle is as a generalization, although it may be useful in the event where someone makes a custom crosswordle gui (or crosswordle itself receives an update) which allows these puzzles to be played.
 
 The initial idea for this project was inspired by @Baactiba.
